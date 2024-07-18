@@ -1,8 +1,12 @@
-const nome = "Eucides"
-const idade = 29
+const array = [
+    {
+        time: "Vascao",
+        titulo: "varios"
+    },
+    {
+        time: "Flamengo",
+        titulo: "nada"
+    }
+]
 
-function soma(a, b) {
-    return a+b
-}
-
-module.exports = { nome, idade, soma }
+module.exports = array
