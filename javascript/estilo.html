@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos</title>
+</head>
+<body>
+    <p id="paragrafo">mudar a cord</p>
+    <button id="mudarestiloBotao">mudar</button>
+    <script>
+        document.getElementById("mudarestiloBotao").addEventListener('click', function () {
+            const texto = document.getElementById('paragrafo')
+            texto.style.color = 'red'
+            texto.style.fontSize = '50px'
+            texto.style.fontWeight = 'bold'
+        })
+    </script>
+    
+</body>
+</html>
