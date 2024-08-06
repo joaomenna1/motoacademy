@@ -1,0 +1,11 @@
+{
+  "name": "motoacademy",
+  "version": "1.0.0",
+  "description": "Aula de node no motoacademy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Nogueira",
+  "license": "ISC"
+}
